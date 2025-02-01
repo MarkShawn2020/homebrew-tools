@@ -3,8 +3,8 @@ class MdDlp < Formula
 
   desc "Download and convert web content to markdown format"
   homepage "https://github.com/markshawn2020/md-dlp"
-  url "https://github.com/markshawn2020/md-dlp/archive/v0.0.3.tar.gz"
-  sha256 "4a53ffe411af0f7b00bff9dacbce925619d0ad807d41fc103a2b0df73d9e69c7"
+  url "https://github.com/markshawn2020/md-dlp/archive/v0.0.4.tar.gz"
+  sha256 "3b03a62c694ffd65d27d69084e2d03817b573cabeab9c3b0f168aeb2d311d130"
   license "MIT"
 
   depends_on "python"
