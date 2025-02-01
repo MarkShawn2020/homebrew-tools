@@ -9,6 +9,12 @@ class MdDlp < Formula
 
   depends_on "python"
 
+  # Get resources from PyPI. You can run `brew update-python-resources md-dlp`
+  # to update the resource blocks below.
+  def resources
+    resources_from_pypi_for_formula "requests", "requests>=2.25.1"
+  end
+
   def install
     virtualenv_install_with_resources
   end
