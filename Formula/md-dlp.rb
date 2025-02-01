@@ -4,14 +4,14 @@ class MdDlp < Formula
   desc "Download and convert web content to markdown format"
   homepage "https://github.com/markshawn2020/md-dlp"
   url "https://github.com/markshawn2020/md-dlp/archive/v1.0.0.tar.gz"
-  sha256 "d0f0889a112e53f4797d6224438e88a32849641945ac432dece473f66d926fca" # 需要替换为实际的 SHA256
+  sha256 "" # 需要替换为实际的 SHA256
   license "MIT"
 
   depends_on "python"
 
   resource "requests" do
     url "https://files.pythonhosted.org/packages/requests-2.31.0.tar.gz"
-    sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
+    sha256 ""
   end
 
   def install
