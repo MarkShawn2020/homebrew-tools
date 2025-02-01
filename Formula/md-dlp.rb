@@ -10,7 +10,7 @@ class MdDlp < Formula
   depends_on "python"
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/requests-2.31.0.tar.gz"
+    url "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c011cd823c42b87f2f13b31ef4f646d65c8b61d/requests-2.31.0.tar.gz"
     sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
   end
 
